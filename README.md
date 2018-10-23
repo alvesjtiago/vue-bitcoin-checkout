@@ -1,4 +1,4 @@
-# oneout-demo
+# Checkout bitcoin demo
 
 ## Project setup
 ```
