@@ -12,8 +12,8 @@
           </div>
           <div class="modal-body">
             <Checkout 
-              network="test" 
-              address="mvnuXPHJz5kRbD5vEDeqfmoQpY9Hezbuer"
+              :network="network" 
+              :address="bitcoin_address"
               :amount=0.001
               @completedPayment="completedPayment"
               v-if="showCheckout"
@@ -33,6 +33,8 @@ export default {
   name: 'Modal',
   data: function() {
     return {
+      network: process.env.VUE_APP_BITCOIN_NETWORK || 'mainnet',
+      bitcoin_address: process.env.VUE_APP_BITCOIN_ADDRESS,
       message: "",
       showCheckout: true,
     }
@@ -43,7 +45,7 @@ export default {
   methods: {
     completedPayment() {
       this.showCheckout = false
-      this.message = `Thank you for your payment.<br><a class="b green" href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" target="_blank">Click here to download.</a>`
+      this.message = `Thank you for your payment.<br><a class="b green" href="${process.env.VUE_APP_CONTENT_URL}" target="_blank">Click here to download.</a>`
     }
   }
 }

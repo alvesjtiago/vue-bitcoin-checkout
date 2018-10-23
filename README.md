@@ -11,6 +11,11 @@ Demo site - [https://checkout-demo.tiagoalves.me/](https://checkout-demo.tiagoal
 
 *(This is a work in progress. Use at your own risk in production.)*
 
+## One-click deployment
+
+<!-- Markdown snippet -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alvesjtiago/checkout-demo)
+
 ## Development
 
 ### Project setup

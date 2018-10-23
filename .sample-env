@@ -1,0 +1,3 @@
+VUE_APP_BITCOIN_NETWORK=test
+VUE_APP_BITCOIN_ADDRESS=mvnuXPHJz5kRbD5vEDeqfmoQpY9Hezbuer
+VUE_APP_CONTENT_URL=https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf

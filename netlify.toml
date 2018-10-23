@@ -1,0 +1,8 @@
+[build]
+  publish = "dist"
+  command = "yarn run build"
+
+[template.environment]
+  VUE_APP_BITCOIN_NETWORK = "set to test or mainnet"
+  VUE_APP_BITCOIN_ADDRESS = "the bitcoin address where you want to get paid"
+  VUE_APP_CONTENT_URL = "the url of the content you want to give access to after paying"
