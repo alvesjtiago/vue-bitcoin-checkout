@@ -8,6 +8,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@xkeshi/vue-qrcode": "^1.0.0",
+    "axios": "^0.18.0",
+    "bitcoinjs-lib": "^4.0.2",
+    "socket.io-client": "^2.1.1",
     "vue": "^2.5.17"
   },
   "devDependencies": {
