@@ -1,4 +1,6 @@
-# Checkout bitcoin demo
+# Checkout Bitcoin demo
+
+![Demo](https://user-images.githubusercontent.com/407470/47375163-8dd2ec00-d6e7-11e8-99ab-0b1381f404c6.gif)
 
 ## Project setup
 ```

@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
-    <VueQrcode :value="qrcodeAddress" :options="{ size: 200 }"></VueQrcode>
-    <div>{{ address }}</div>
-    <div>{{ message }}</div>
+    <VueQrcode class="mt4" :value="qrcodeAddress" :options="{ size: 250 }"></VueQrcode>
+    <div class="f7 fw1 lh-copy">{{ address }}</div>
+    <div class="mt4">{{ message }}</div>
   </div>
 </template>
 
