@@ -23,7 +23,6 @@ export default {
   data: function() {
     return  {
       qrcodeAddress: '',
-      addressBalance: 0,
       message: ""
     }
   },
