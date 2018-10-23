@@ -14,7 +14,7 @@
             <Checkout 
               :network="network" 
               :address="bitcoin_address"
-              :amount=0.001
+              :amount="amount"
               @completedPayment="completedPayment"
               v-if="showCheckout"
             />
@@ -35,6 +35,7 @@ export default {
     return {
       network: process.env.VUE_APP_BITCOIN_NETWORK || 'mainnet',
       bitcoin_address: process.env.VUE_APP_BITCOIN_ADDRESS,
+      amount: parseFloat(process.env.VUE_APP_BITCOIN_AMOUNT),
       message: "",
       showCheckout: true,
     }

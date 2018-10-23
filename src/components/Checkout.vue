@@ -35,7 +35,7 @@ export default {
     socket.on('connect', function() {
       // Join the room.
       socket.emit('subscribe', room)
-      ref.message = "Waiting for payment..."
+      ref.message = `Waiting for ${ref.amount} BTC payment...`
     })
 
     socket.on(eventToListenTo, function(data) {
