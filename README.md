@@ -7,6 +7,8 @@ If you sell digital products online and you're looking for an easy way to accept
 It is built with Vue.js and the main component is `Checkout.vue` where QR code rendering, socket connections and callbacks are handled.
 It connects to Bitpay's servers to access real-time information about payments. Change the `network` prop to connect to test or mainnet.
 
+Demo site - [https://checkout-demo.tiagoalves.me/](https://checkout-demo.tiagoalves.me/)
+
 *(This is a work in progress. Use at your own risk in production.)*
 
 ## Development
