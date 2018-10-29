@@ -14,7 +14,7 @@ Demo site - [https://checkout-demo.tiagoalves.me/](https://checkout-demo.tiagoal
 ## One-click deployment
 
 <!-- Markdown snippet -->
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alvesjtiago/checkout-demo)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alvesjtiago/vue-bitcoin-checkout)
 
 ## Development
 
