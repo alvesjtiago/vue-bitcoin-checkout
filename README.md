@@ -18,6 +18,9 @@ Demo site - [https://checkout-demo.tiagoalves.me/](https://checkout-demo.tiagoal
 
 ## Environment variables
 
+* `VUE_APP_TITLE`: Title for landing page
+* `VUE_APP_SUBTITLE`: Subtitle for landing page
+* `VUE_APP_IMAGE_URL`: Image URL for landing page
 * `VUE_APP_BITCOIN_NETWORK`: Set to test or mainnet
 * `VUE_APP_BITCOIN_ADDRESS`: The bitcoin address where you want to get paid
 * `VUE_APP_CONTENT_URL`: The url of the content you want to give access to after paying
